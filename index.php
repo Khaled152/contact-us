@@ -19,7 +19,7 @@ $body .= "From: ".$username. "\r\n";
 $body .= "Email: ".$userEmail. "\r\n";
 $body .= "Message: ".$massage. "\r\n";
 
-//mail($to, $massageSubject, $body);
+mail($to, $massageSubject, $body);
 
 $massage_sent = true;
 }
